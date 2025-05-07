@@ -6,48 +6,22 @@ So, you got QuantVisor, huh? Good on ya! This here script is built to help you f
 Gettin' Set Up:
 ----------------
 
-1.  **Make a Spot for It (Your QuantVisor Folder):**
-    First thing, you gotta make a folder for QuantVisor to live in. Just create a new folder anywhere you like – maybe on your Desktop or in your Documents. Call it `QuantVisor`. Easy peasy.
+Download or clone this repository, or just download the script itself, quantvisor.py
 
-2.  **Put the Script in There:**
-    *   Take all that Python code for `quantvisor.py` I gave ya.
-    *   Open up a plain ol' text editor. If you're on Windows, Notepad'll do. Mac folks, TextEdit is fine, just make sure it's in "Plain Text" mode (Format > Make Plain Text). If you're fancy, VS Code or somethin' similar works too.
-    *   Paste all that code right into the blank file.
-    *   Now, save it. Name it exactly `quantvisor.py` (all lowercase is good) and stick it right inside that `QuantVisor` folder you just made.
+1.  **Open a Terminal in the Location of Your Script:**
 
-    When you're done, your `QuantVisor` folder should look like this:
-    QuantVisor/
-        └── quantvisor.py
-
-    If you end up usin' the `llama.cpp` part, the script will make another folder called `models_gguf` inside `QuantVisor` for all the model files. Don't you worry 'bout that part yet.
-
-How to Kick It Off (Runnin' the Script):
-----------------------------------------
-
-1.  **Open Your Terminal (Command Line Thingy):**
-    *   **Windows:** Hit the Start button and type `PowerShell`, then open it. `Command Prompt` works too.
-    *   **Mac or Linux:** Look for an app called `Terminal` and open that up.
-
-2.  **Head to Your QuantVisor Folder:**
-    You gotta tell the terminal where you put that `QuantVisor` folder. Use the `cd` command (that means "change directory").
-    *   If it's on your Desktop:
-        *   Mac/Linux: `cd ~/Desktop/QuantVisor`
-        *   Windows (PowerShell): `cd $HOME\Desktop\QuantVisor`
-        *   Windows (Command Prompt): `cd %USERPROFILE%\Desktop\QuantVisor`
-    *   If it's somewhere else, just change the path to wherever you stuck it.
-
-3.  **Run the Dang Thing!**
+2.  **Run the Dang Thing!**
     Once you're "in" the `QuantVisor` folder in your terminal, type this and hit Enter:
     `python3 quantvisor.py`
 
-    If `python3` gives you grief, try just `python quantvisor.py`. Just make sure you got Python version 3.6 or newer installed on your machine.
+    If `python3` gives you grief, try just `python quantvisor.py` or vice versa. Just make sure you got Python version 3.6 or newer installed on your machine.
 
 First Time Runnin' It - Important Stuff:
 ----------------------------------------
 
 When you run it the first time, it might need a few things:
 
-*   **Python Helper Bits (Dependencies):**
+*   **Python Bits (Dependencies):**
     The script uses a few extra Python tools like `psutil`, `requests`, and `huggingface-hub`. If you don't have 'em, the script will tell ya. It'll even show you the commands to type into your terminal to install 'em, somethin' like `python3 -m pip install psutil`. Just run those install commands, then try runnin' `quantvisor.py` again.
 
 *   **Pick Your Poison (Benchmark Engine):**
