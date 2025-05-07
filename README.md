@@ -9,9 +9,10 @@ Gettin' Set Up:
 Download or clone this repository, or just download the script itself, quantvisor.py
 
 1.  **Open a Terminal in the Location of Your Script:**
+    Use your context menu or navigate via commanad line.
 
-2.  **Run the Dang Thing!**
-    Once you're "in" the `QuantVisor` folder in your terminal, type this and hit Enter:
+2.  **Run It!**
+    Once you're in the `QuantVisor` folder in your terminal, type the following and hit Enter:
     `python3 quantvisor.py`
 
     If `python3` gives you grief, try just `python quantvisor.py` or vice versa. Just make sure you got Python version 3.6 or newer installed on your machine.
